@@ -31,7 +31,7 @@ def getImg(path_input_img):
   return (img)  
 
 #===================================================================
-# Replace green screen       
+# Realign image      
 def processImg(img):
   # Binarization
   img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
